@@ -6,6 +6,7 @@ public class Car {
     int speed;
 
     int CC;
+
     Car(String color, int cc){
         this.color =color;
         this.CC =cc;
