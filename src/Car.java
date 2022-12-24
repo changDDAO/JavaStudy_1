@@ -1,14 +1,13 @@
 public class Car {
-    String company = "현대자동차";
-    String model = "그랜저";
-    String color;
-    int maxSpeed = 350;
-    int speed;
+    Tire frontLeftTire =new HankookTire();
+    Tire frontRightTire = new HankookTire();
+    Tire rearLeftTire = new HankookTire();
+    Tire rearRightTire = new HankookTire();
 
-    int CC;
-
-    Car(String color, int cc){
-        this.color =color;
-        this.CC =cc;
+    void run(){
+        frontLeftTire.roll();
+        frontRightTire.roll();
+        rearLeftTire.roll();
+        rearRightTire.roll();
     }
 }
