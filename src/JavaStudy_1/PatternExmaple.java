@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 import java.util.regex.Pattern;
 
 public class PatternExmaple {

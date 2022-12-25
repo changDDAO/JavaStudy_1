@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class Car {
     Tire frontLeftTire =new HankookTire();
     Tire frontRightTire = new HankookTire();

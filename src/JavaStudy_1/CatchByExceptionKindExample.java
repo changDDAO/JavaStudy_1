@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class CatchByExceptionKindExample {
     public static void main(String[] args) {
         try{
@@ -10,7 +12,7 @@ public class CatchByExceptionKindExample {
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("실행 매개값의 수가 부족합니다.");
             System.out.println("[실행방법]");
-            System.out.println("Java CatchByExceptionKindExample num1 num2 ");
+            System.out.println("Java JavaStudy_1.CatchByExceptionKindExample num1 num2 ");
         }catch (NumberFormatException e){
             System.out.println("숫자로 변환할 수 없습니다.");
         }finally {

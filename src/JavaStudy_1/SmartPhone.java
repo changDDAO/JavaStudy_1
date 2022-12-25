@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class SmartPhone extends Phone {
     //Constructor
     public SmartPhone(String owner){

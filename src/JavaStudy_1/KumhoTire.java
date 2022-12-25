@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class KumhoTire implements Tire{
     @Override
     public void roll(){

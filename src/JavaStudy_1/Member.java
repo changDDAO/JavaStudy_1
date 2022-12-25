@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class Member implements Comparable<Member>{
     String name;
     Member(String name){

@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class HankookTire implements Tire {
     @Override
     public void roll(){

@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class CalculatorExample {
     public static void main(String[] args) {
         Calculator myCalc = new Calculator();

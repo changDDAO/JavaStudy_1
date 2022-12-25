@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class ReferenceType {
     public static void main(String[] args) {
         int[] scores = {83, 90, 57};

@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class Phone {
     //field
     public String owner;

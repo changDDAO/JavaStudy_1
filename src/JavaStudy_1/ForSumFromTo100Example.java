@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class ForSumFromTo100Example {
     public static void main(String[] args) {
         int sum =0;

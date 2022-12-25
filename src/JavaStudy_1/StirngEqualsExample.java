@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class StirngEqualsExample{
     public static void main(String []args){
         String strVar1 = "윤창호";

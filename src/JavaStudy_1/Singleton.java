@@ -1,3 +1,5 @@
+package JavaStudy_1;
+
 public class Singleton {
     int age = 10;
     private final static Singleton singleton = new Singleton();
