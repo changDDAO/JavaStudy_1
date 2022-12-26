@@ -1,4 +1,4 @@
-package LamdaExpression;
+package JavaStudy_2.LamdaExpression;
 
 public class RunnableExample {
     public static void main(String[] args) {
