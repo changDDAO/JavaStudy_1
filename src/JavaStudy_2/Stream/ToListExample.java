@@ -1,7 +1,9 @@
 package JavaStudy_2.Stream;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class ToListExample {
@@ -21,9 +23,9 @@ public class ToListExample {
 
         System.out.println();
         System.out.println("여자 리스트");
-        List<Student> femaleList = totalList.stream()
+        Set<Student> femaleList = totalList.stream()
                 .filter(s->s.getSex()== Student.Sex.FEMALE)
-                .collect(Collectors.toList());
+                .collect(Collectors.toCollection(HashSet::new));
         femaleList.stream()
                 .forEach(s-> System.out.println(s.getName()));
     }
