@@ -14,7 +14,8 @@ public class SortingExample {
 
         List<Student> studentList =Arrays.asList(new Student("윤창호",96),
                 new Student("김진아",91),
-                new Student("윤경석",83));
+                new Student("윤경석",83),
+                new Student("장여진",99));
         studentList.stream()
                 .sorted()
                 .forEach(s-> System.out.print(s.getScore()+","));
